@@ -1,0 +1,449 @@
+{
+  "publications": {
+    "items": [
+      {
+        "title": "Optimising nonlinear calibration of glass pH electrodes over the pH range −4.5 to 15.5 using improved statistical treatment of acid and alkaline errors",
+        "doi": "10.1016/j.talanta.2026.130486",
+        "year": 2027,
+        "date": "2027-02-01",
+        "type": "Journal article",
+        "authors": "Saleesongsom S, Plancherel Y, Weiss D",
+        "journal": "Talanta",
+        "topic": "chemistry",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Development of a Novel, Continuous-Time Dynamical Modelling Paradigm That Integrates the Cycles of Natural Resources with Economics",
+        "doi": "10.22541/essoar.176677326.68844120/v3",
+        "year": 2026,
+        "date": "2026-04-14",
+        "type": "Preprint",
+        "authors": "Gambaro N, Brito-Parada P, Myers RJ, Plancherel Y",
+        "journal": "Wiley",
+        "topic": "resource",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Influence of Model Resolution on the Representation and Contribution of Antarctic Intermediate Water to Meridional Salt Transport in the Atlantic",
+        "doi": "10.1029/2025jc023750",
+        "year": 2026,
+        "date": "2026-04-01",
+        "type": "Journal article",
+        "authors": "Meuriot O, Lique C, Plancherel Y, Treguier AM",
+        "journal": "Journal of Geophysical Research: Oceans",
+        "topic": "ocean",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Spectrally-Augmented LiDAR Point Cloud for Vegetation Classification",
+        "doi": "10.2139/ssrn.6333611",
+        "year": 2026,
+        "date": "2026-01-01",
+        "type": "Preprint",
+        "authors": "Calva O, Plancherel Y",
+        "journal": "Elsevier BV",
+        "topic": "remote",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Limestone-Based Hybrid Passive Treatment for Copper-Rich Acid Mine Drainage: From Laboratory to Field",
+        "doi": "10.3390/min15101043",
+        "year": 2025,
+        "date": "2025-10-01",
+        "type": "Journal article",
+        "authors": "Pocaan JP, Bueno BG, Pagaduan JM, Capingian J, Pablo MAN, Paulo JLRW, Beltran AB, Orbecido AH, Tanhueco RM, Tabelin CB, Villacorte-Tabelin M, Resabal VJT, Dalona IM, Alonzo D, Brito-Parada P, Plancherel Y, Armstrong R, Jungblut AD, Santos A, Schofield PF, Herrington R, Promentilla MAB",
+        "journal": "MINERALS",
+        "topic": "chemistry",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Simulating resource movements and markets: A continuous dynamical system with delays to model anthropogenic metal cycles",
+        "doi": "10.1016/j.resourpol.2025.105548",
+        "year": 2025,
+        "date": "2025-04-01",
+        "type": "Journal article",
+        "authors": "Gambaro N, Brito-Parada P, Glöser-Chahoud S, Plancherel Y",
+        "journal": "Resources Policy",
+        "topic": "resource",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Influence of the Southern Hemisphere Supergyre on Antarctic Intermediate Water Properties in CMIP6 Models",
+        "doi": "10.1029/2024jc021140",
+        "year": 2024,
+        "date": "2024-12-01",
+        "type": "Journal article",
+        "authors": "Meuriot O, Lique C, Plancherel Y",
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-OCEANS",
+        "topic": "ocean",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Working with the community for the rehabilitation of legacy mines: Approaches and lessons learned from the literature",
+        "doi": "10.1016/j.resourpol.2024.105351",
+        "year": 2024,
+        "date": "2024-11-01",
+        "type": "Journal article",
+        "authors": "Alonzo D, Tabelin CB, Dalona IM, Abril JMV, Beltran A, Orbecido A, Villacorte-Tabelin M, Resabal VJ, Promentilla MA, Suelto M, Brito-Parada PR, Plancherel Y, Jungblut AD, Armstrong R, Santos A, Schofield PF, Herrington R",
+        "journal": "Resources Policy",
+        "topic": "chemistry",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "A Bayesian approach for the modelling of material stocks and flows with\n  incomplete data",
+        "doi": "10.48550/arxiv.2211.06178",
+        "year": 2024,
+        "date": "2024-05-27",
+        "type": "Preprint",
+        "authors": "Wang J, Ray K, Brito-Parada P, Plancherel Y, Bide T, Mankelow J, Morley J, Stegemann J, Myers R",
+        "journal": "ArXiv",
+        "topic": "resource",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Nearshore tsunami amplitudes across the Maldives archipelago due to worst-case seismic scenarios in the Indian Ocean",
+        "doi": "10.5194/nhess-24-737-2024",
+        "year": 2024,
+        "date": "2024-03-05",
+        "type": "Journal article",
+        "authors": "Rasheed S, Warder SC, Plancherel Y, Piggott MD",
+        "journal": "NATURAL HAZARDS AND EARTH SYSTEM SCIENCES",
+        "topic": "ocean",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Simulating marine neodymium isotope distributions using Nd v1.0 coupled to the ocean component of the FAMOUS-MOSES1 climate model: sensitivities to reversible scavenging efficiency and benthic source distributions",
+        "doi": "10.5194/gmd-16-1231-2023",
+        "year": 2023,
+        "date": "2023-02-22",
+        "type": "Journal article",
+        "authors": "Robinson S, Ivanovic RF, Gregoire LJ, Tindall J, van de Flierdt T, Plancherel Y, Poppelmeier F, Tachikawa K, Valdes PJ",
+        "journal": "Geoscientific Model Development",
+        "topic": "ocean",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Bio+mine project: empowering the community to develop a site-specific system for the rehabilitation of a legacy mine",
+        "doi": "10.1177/16094069231176340",
+        "year": 2023,
+        "date": "2023-01-01",
+        "type": "Journal article",
+        "authors": "Alonzo D, Tabelin CB, Dalona IM, Beltran A, Orbecido A, Villacorte-Tabelin M, Resabal VJ, Promentilla MA, Brito-Parada P, Plancherel Y, Jungblut AD, Armstrong R, Santos A, Schofield PF, Herrington R",
+        "journal": "International Journal of Qualitative Methods",
+        "topic": "chemistry",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Development of a site-specific system for the rehabilitation of legacy mines: The challenges of social, geological, hydrological, and biological data integration",
+        "doi": "10.36487/acg_repo/2315_012",
+        "year": 2023,
+        "date": "2023-01-01",
+        "type": "Conference",
+        "authors": "Armstrong R, Alonzo D, Fernandez-Dalona IM, Villacorte-Tabelin M, Tabelin CB, Beltran A, Orbecido A, Brito-Parada PR, Plancherel Y, Santos A, Herrington R, Jungblut AD, Schofield PF, Promentilla MA, Resabal VJ, Pisda PF, Ananayo A, Lawangen A, Suelto M",
+        "journal": "Proceedings of the International Conference on Mine Closure",
+        "topic": "chemistry",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Properties, sensitivity, and stability of the Southern Hemisphere salinity minimum layer in the UKESM1 model",
+        "doi": "10.1007/s00382-022-06304-2",
+        "year": 2023,
+        "date": "2023-01-01",
+        "type": "Journal article",
+        "authors": "Meuriot O, Lique C, Plancherel Y",
+        "journal": "CLIMATE DYNAMICS",
+        "topic": "ocean",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "A database for the stocks and flows of sand and gravel",
+        "doi": "10.3390/resources11080072",
+        "year": 2022,
+        "date": "2022-08-02",
+        "type": "Journal article",
+        "authors": "Morley JD, Myers RJ, Plancherel Y, Brito-Parada PR",
+        "journal": "Resources",
+        "topic": "resource",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Resource requirements for ecosystem conservation: A combined industrial and natural ecology approach to quantifying natural capital use in nature",
+        "doi": "10.1002/ece3.9132",
+        "year": 2022,
+        "date": "2022-08-01",
+        "type": "Journal article",
+        "authors": "Mason AR, Gathorne-Hardy A, White C, Plancherel Y, Woods J, Myers RJ",
+        "journal": "Ecology and Evolution",
+        "topic": "resource",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "A Database for the Extraction, Trade, and Use of Sand and Gravel (Retraction of Vol 11, art no 38, 2022)",
+        "doi": "10.3390/resources11050050",
+        "year": 2022,
+        "date": "2022-05-20",
+        "type": "Journal article",
+        "authors": "Morley JD, Myers RJ, Plancherel Y, Brito-Parada PR",
+        "journal": "RESOURCES-BASEL",
+        "topic": "resource",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "A Database for the Extraction, Trade, and Use of Sand and Gravel",
+        "doi": "10.3390/resources11040038",
+        "year": 2022,
+        "date": "2022-04-13",
+        "type": "Journal article",
+        "authors": "Morley JD, Myers RJ, Plancherel Y, Brito-Parada PR",
+        "journal": "RESOURCES-BASEL",
+        "topic": "resource",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "A decade of progress in understanding cycles of trace elements and their isotopes in the oceans*",
+        "doi": "10.1016/j.chemgeo.2021.120381",
+        "year": 2021,
+        "date": "2021-10-05",
+        "type": "Journal article",
+        "authors": "Conway TM, Horner TJ, Plancherel Y, Gonzalez AG",
+        "journal": "CHEMICAL GEOLOGY",
+        "topic": "ocean",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "An improved gridded bathymetric data set and tidal model for the Maldives Archipelago",
+        "doi": "10.1029/2020ea001207",
+        "year": 2021,
+        "date": "2021-05-01",
+        "type": "Journal article",
+        "authors": "Rasheed S, Warder SC, Plancherel Y, Piggott MD",
+        "journal": "Earth and Space Science",
+        "topic": "chemistry",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      },
+      {
+        "title": "Global continental and marine detrital εNd: an updated compilation for use in understanding marine Nd cycling",
+        "doi": "10.1016/j.chemgeo.2021.120119",
+        "year": 2021,
+        "date": "2021-04-20",
+        "type": "Journal article",
+        "authors": "Robinson S, Ivanovic R, van de Flierdt T, Blanchet CL, Tachikawa K, Martin EE, Cook (Falco) CP, Williams T, Gregoire L, Plancherel Y, Jeandel C, Arsouze T",
+        "journal": "Chemical Geology",
+        "topic": "chemistry",
+        "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+      }
+    ],
+    "lastSuccess": "2026-11-16T11:12:37.749Z",
+    "lastAttempt": "2026-11-16T11:12:37.749Z",
+    "source": "https://profiles.imperial.ac.uk/y.plancherel/publications",
+    "status": "ok",
+    "error": null,
+    "coverage": "Recent records from the first page of Imperial’s profile."
+  },
+  "projects": {
+    "items": [
+      {
+        "title": "Dynamic Isotopic and Probabilistic Modelling of Global Metal Flows: Integrating Isotope Geochemistry, Bayesian Inference, and System Dynamics to Advance Industrial Ecology",
+        "supervisors": "Dr Yves Plancherel, Rupert Myers, Pablo Brito-Parada, Kolyan Ray",
+        "url": "https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/earth-science-and-engineering/phd-opportunities/2025-projects/DIPMod_Plancherel_Yves-Plancherel.pdf",
+        "topic": "resource",
+        "availability": "listed"
+      },
+      {
+        "title": "Integrating Multimodal Very-High-Resolution Data for Ecosystem Intelligence and Natural Capital Monitoring",
+        "supervisors": "Dr Yves Plancherel, Matt Piggott",
+        "url": "https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/earth-science-and-engineering/phd-opportunities/2025-projects/AI4UAV_Plancherel_Yves-Plancherel.pdf",
+        "topic": "chemistry",
+        "availability": "listed"
+      },
+      {
+        "title": "Data-Driven Detection and Attribution of Illegal Resource Extraction",
+        "supervisors": "Dr Yves Plancherel",
+        "url": "https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/earth-science-and-engineering/phd-opportunities/2025-projects/IllegalResources_Plancherel_Yves-Plancherel.pdf",
+        "topic": "resource",
+        "availability": "listed"
+      }
+    ],
+    "lastSuccess": "2026-11-16T11:17:31.851Z",
+    "lastAttempt": "2026-11-16T11:17:31.851Z",
+    "source": "https://www.imperial.ac.uk/earth-science/prosp-students/phd-opportunities/project-topics/all-projects/",
+    "status": "ok",
+    "retrievalMode": "indexed",
+    "error": null
+  },
+  "latestManuscript": {
+    "item": {
+      "title": "Optimising nonlinear calibration of glass pH electrodes over the pH range −4.5 to 15.5 using improved statistical treatment of acid and alkaline errors",
+      "doi": "10.1016/j.talanta.2026.130486",
+      "year": 2027,
+      "date": "2027-02-01",
+      "type": "Journal article",
+      "authors": "Saleesongsom S, Plancherel Y, Weiss D",
+      "journal": "Talanta",
+      "topic": "chemistry",
+      "source": "https://profiles.imperial.ac.uk/y.plancherel/publications",
+      "summary": "Glass pH electrodes lose accuracy in strongly acidic and alkaline solutions. This study compares seven nonlinear calibration models and identifies an asymmetric double-logistic function that describes electrode behaviour from pH −4.5 to 15.5 at 25 °C. Compared with conventional three-point calibration, it reduces extreme-pH bias by up to 3.0 units in acidic solutions and 1.5 units in alkaline solutions. Statistical tests identify a smaller set of calibration standards that maintains accuracy within ±0.25 pH unit at the extremes while cutting calibration time by at least half.",
+      "summaryWordCount": 86,
+      "evidenceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42715722/",
+        "https://www.sciencedirect.com/science/article/pii/S0039914026011422"
+      ],
+      "onlineDate": "2026-08-20",
+      "figure": null,
+      "updatedAt": "2026-11-16T12:54:13.377Z"
+    },
+    "candidate": {
+      "title": "Optimising nonlinear calibration of glass pH electrodes over the pH range −4.5 to 15.5 using improved statistical treatment of acid and alkaline errors",
+      "doi": "10.1016/j.talanta.2026.130486",
+      "year": 2027,
+      "date": "2027-02-01",
+      "type": "Journal article",
+      "authors": "Saleesongsom S, Plancherel Y, Weiss D",
+      "journal": "Talanta",
+      "topic": "chemistry",
+      "source": "https://profiles.imperial.ac.uk/y.plancherel/publications"
+    },
+    "status": "ok",
+    "lastSuccess": "2026-11-16T12:54:06.419Z",
+    "lastAttempt": "2026-11-16T12:54:06.419Z",
+    "error": null
+  },
+  "featuredProjects": {
+    "items": [
+      {
+        "id": "remote-editorial-0",
+        "doi": null,
+        "theme": "remote",
+        "title": "Weather data for resilience",
+        "description": "Developing observational capacity and community-driven data tools to support agriculture and climate resilience in mountainous landscapes.",
+        "url": "https://www.imperial.ac.uk/imperial-global-development-lab/global-development-lab-stemb-impact-memos/power-of-weather-data/",
+        "meta": "PHILIPPINES",
+        "date": null,
+        "onlineDate": null,
+        "anchor": null
+      },
+      {
+        "id": "remote-editorial-1",
+        "doi": null,
+        "theme": "remote",
+        "title": "Bio+Mine",
+        "description": "Satellite and drone observations, environmental measurements and community engagement support the rehabilitation of legacy mining landscapes in the Philippines. The lab contributes remote sensing and data integration within an international research partnership.",
+        "url": "https://bioplusmine.earth/",
+        "meta": "REMOTE SENSING / PHILIPPINES",
+        "date": null,
+        "onlineDate": null,
+        "anchor": "biomine"
+      },
+      {
+        "id": "doi:10.5194/nhess-24-737-2024",
+        "doi": "10.5194/nhess-24-737-2024",
+        "theme": "ocean",
+        "title": "Reef islands in a changing climate",
+        "description": "Satellite-based coastline analysis and numerical modelling reveal island morphodynamics, seasonal change and coastal hazards across the Maldives, with related research extending to Chagos.",
+        "url": "https://doi.org/10.5194/nhess-24-737-2024",
+        "meta": "COASTAL RESEARCH / MALDIVES & CHAGOS",
+        "date": null,
+        "onlineDate": null,
+        "anchor": "maldives"
+      },
+      {
+        "id": "doi:10.1029/2025JC023750",
+        "doi": "10.1029/2025JC023750",
+        "theme": "ocean",
+        "title": "Ocean resolution and Antarctic Intermediate Water",
+        "description": "Comparing three HadGEM3-GC3.1 ocean resolutions to investigate how model resolution represents Antarctic Intermediate Water and the contribution of eddies to Atlantic meridional salt transport.",
+        "url": "https://doi.org/10.1029/2025JC023750",
+        "meta": "MEURIOT ET AL. · JGR: OCEANS · 2026",
+        "date": null,
+        "onlineDate": "2026-04-17",
+        "anchor": null
+      },
+      {
+        "id": "doi:10.1016/j.talanta.2026.130486",
+        "doi": "10.1016/j.talanta.2026.130486",
+        "theme": "chemistry",
+        "title": "Reliable pH measurements at extreme conditions",
+        "description": "Improving glass-electrode calibration in strongly acidic and alkaline solutions through nonlinear modelling and statistical treatment of measurement errors.",
+        "url": "https://doi.org/10.1016/j.talanta.2026.130486",
+        "meta": "CHEMICAL MEASUREMENTS",
+        "date": "2027-02-01",
+        "onlineDate": "2026-08-20",
+        "anchor": null
+      },
+      {
+        "id": "doi:10.1021/acsomega.6c01903",
+        "doi": "10.1021/acsomega.6c01903",
+        "theme": "chemistry",
+        "title": "Temperature-dependent calibration for negative pH",
+        "description": "Developing nonlinear, temperature-corrected calibration of glass pH electrodes for strongly acidic solutions, where conventional linear calibration becomes unreliable.",
+        "url": "https://doi.org/10.1021/acsomega.6c01903",
+        "meta": "SALEESONGSOM ET AL. · ACS OMEGA · 2026",
+        "date": null,
+        "onlineDate": "2026-07-02",
+        "anchor": null
+      },
+      {
+        "id": "doi:10.1016/j.resourpol.2025.105548",
+        "doi": "10.1016/j.resourpol.2025.105548",
+        "theme": "resource",
+        "title": "Simulating resource movements and markets",
+        "description": "Developing dynamic models of anthropogenic metal stocks and flows to investigate resource movements, recycling and market behaviour.",
+        "url": "https://doi.org/10.1016/j.resourpol.2025.105548",
+        "meta": "GAMBARO ET AL. · RESOURCES POLICY · 2025",
+        "date": "2025-04-01",
+        "onlineDate": null,
+        "anchor": null
+      },
+      {
+        "id": "doi:10.1111/jiec.13550",
+        "doi": "10.1111/jiec.13550",
+        "theme": "resource",
+        "title": "Bayesian material flow analysis across scales",
+        "description": "A Bayesian framework for estimating material stocks and flows with multiple levels of disaggregation, combining incomplete and uncertain data with explicit uncertainty quantification.",
+        "url": "https://doi.org/10.1111/jiec.13550",
+        "meta": "WANG ET AL. · JOURNAL OF INDUSTRIAL ECOLOGY · 2024",
+        "date": null,
+        "onlineDate": null,
+        "anchor": null
+      }
+    ],
+    "archive": [],
+    "processedDois": [
+      "10.3390/resources11080072",
+      "10.5194/bg-8-1565-2011",
+      "10.5194/bg-11-4077-2014",
+      "10.1007/s00382-017-3849-9",
+      "10.1007/s00382-013-1984-5",
+      "10.1029/2025jc023750",
+      "10.1002/2016gc006782",
+      "10.1017/eds.2026.10062",
+      "10.1029/2020gl089275",
+      "10.1016/j.gca.2016.01.018",
+      "10.1029/2020ea001207",
+      "10.3390/min15101043",
+      "10.1029/2024jc021140",
+      "10.1016/j.resourpol.2025.105548",
+      "10.1016/j.talanta.2026.130486",
+      "10.1038/srep35473",
+      "10.1007/s00382-014-2373-4",
+      "10.1007/s00382-022-06304-2",
+      "10.1016/j.chemgeo.2017.03.018",
+      "10.5194/bg-10-4801-2013",
+      "10.1177/16094069231176340",
+      "10.1021/acsearthspacechem.0c00034",
+      "10.1016/j.gca.2018.10.027",
+      "10.1016/j.marchem.2015.03.013",
+      "10.3390/resources11050050",
+      "10.3390/resources11040038",
+      "10.1007/s00382-014-2263-9",
+      "10.1007/s00382-017-3999-9",
+      "10.1016/j.watres.2006.12.021"
+    ],
+    "candidates": [],
+    "failures": [],
+    "baselineAt": "2026-11-17T11:25:29.043200+00:00",
+    "lastSuccess": null,
+    "status": "pending",
+    "error": null
+  }
+}

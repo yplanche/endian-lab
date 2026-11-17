@@ -1,0 +1,4 @@
+const search=document.querySelector('#scheme-search'),degree=document.querySelector('#scheme-degree'),cards=[...document.querySelectorAll('.external-award')];
+function filterSchemes(){const q=search.value.trim().toLowerCase();let count=0;cards.forEach(card=>{const show=(!q||card.dataset.search.includes(q))&&(degree.value==='all'||card.dataset.level.split(' ').includes(degree.value));card.hidden=!show;if(show)count++});document.querySelector('#scheme-count').textContent=count+(count===1?' scheme shown':' schemes shown');document.querySelector('#scheme-empty').hidden=count!==0;}
+search.addEventListener('input',filterSchemes);degree.addEventListener('change',filterSchemes);
+const menu=document.querySelector('.menu'),nav=document.querySelector('nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open))});

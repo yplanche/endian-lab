@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {parseOrcidWorks,selectLatestArticle} from '../worker/content.mjs';
+const work=(doi,type,date,title)=>({title:{title:{value:title}},type,'publication-date':{year:{value:String(date[0])},month:{value:String(date[1])}},'external-ids':{'external-id':[{'external-id-type':'doi','external-id-value':doi,'external-id-relationship':'self'}]}});
+test('ORCID uses dated journal articles, excluding newer preprints and corrections',()=>{const data={path:'/0000-0002-3624-0757/works',group:[{'work-summary':[work('10.1234/new','journal-article',[2026,6],'New paper')]},{'work-summary':[work('10.1234/pre','preprint',[2026,10],'Preprint')]},{'work-summary':[work('10.1234/corr','journal-article',[2026,11],'Correction: old paper')]},{'work-summary':[work('10.1234/old','journal-article',[2025,5],'Old paper')]}]};assert.equal(selectLatestArticle(parseOrcidWorks(data)).doi,'10.1234/new');});
+test('invalid, empty and wrong-owner ORCID responses fail safely',()=>{for(const data of [{},{path:'/other/works',group:[]},{path:'/0000-0002-3624-0757/works',group:[]}])assert.throws(()=>parseOrcidWorks(data));});
