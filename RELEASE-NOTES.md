@@ -1,25 +1,15 @@
-# Package review — 17 November 2026
+# Deployment troubleshooting revision — 17 November 2026
 
-This release includes the latest live website content: ORCID publications and automated featured studies/archive, all corrected slideshow captions, supplied theme logos at 60% of their previous display size, consultancy navigation and ICON/project examples, and the twelve-photo fieldwork collage beside the Antarctica movie.
+- Fixed static export leaking internal updater error text into public status data, which made test 11 reject the literal setting name OPENAI_API_KEY. Public display fields are now explicitly selected; source state and existing content are preserved.
+- Added a regression test with saved missing-credential errors and failure histories, checking public exclusion and unchanged source data.
+- Corrected Actions permission guidance: job permissions are declared in the workflow; changing repository-wide defaults is normally unnecessary.
+- Added exact browser upload/edit and Run workflow instructions, API secret vs model variable setup, and how to locate the actual failing assertion.
+- Documented initial configure-pages 404, simulated 503 test output, Ubuntu/Node notices, green-deploy vs source-update status, and preservation of previous content.
+- Expanded Squarespace/GitHub domain setup: inherited user-site domains, root URL, old Imperial forwarding, four A records, www CNAME, Google verification and Domain Connect records, and why not to apply Squarespace Defaults.
+- Added DNS/redirect cache and HTTPS guidance, safe upgrade instructions, and browser-edit fallback when file download fails.
 
-## Instructions corrected
+The original dated ZIP filename is retained; this revision supersedes the earlier package. No live GitHub repository, DNS setting or hosted private Site is changed by downloading it. Tests use fixtures and do not establish real API billing/model access or a successful live updater run.
 
-- Removed obsolete Imperial-publication-source and manual-featured-project statements.
-- Clarified the GitHub Actions schedule (07:17 UTC), API key/model settings and three update statuses.
-- Distinguished GitHub Actions from the separate original private website's ChatGPT task.
-- Explained primary-evidence failures, pending classifications, archive behaviour and the ten-paper batch limit.
-- Corrected editing guidance: active cards come from data/content.json, not just fallback HTML.
-- Added safe upgrade instructions preserving newer data and archives.
-- Updated current media, consultancy, Node.js and domain/HTTPS setup guidance; clarified the retained ZIP filename.
-- Corrected local preview MIME types for JPEG, MP4 and WebP assets.
+## Validation
 
-## Verification
-
-- Build completed successfully; all 24 automated tests passed.
-- Editable website files match the current live source.
-- All local HTML media/page references resolve; workflow YAML and deployment path validated.
-- ORCID API URL, scheduled cron, variable names, commands and source paths agree with the bundled code.
-- GitHub's custom-workflow/domain/HTTPS instructions and documented DNS addresses were reviewed against official guidance.
-- ZIP checksums, hidden workflow files and a clean-extraction build/test were checked.
-
-No repository was created, real OpenAI API billing call made, GitHub deployment run, or DNS setting changed for your account. Installation still requires your own GitHub repository, Pages/Actions settings and (for full automatic updates) API credentials. Verify the first manual and scheduled Actions runs after installation.
+Build and all 25 tests passed, including the saved-error regression. A fresh extraction of the delivered archive was also built and tested. No real API billing call or live GitHub/DNS change was performed.

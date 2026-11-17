@@ -1,24 +1,12 @@
 import fs from 'node:fs';import path from 'node:path';
 fs.rmSync('site',{recursive:true,force:true});fs.cpSync('web','site',{recursive:true});fs.mkdirSync('site/data',{recursive:true});
 const state=JSON.parse(fs.readFileSync('data/content.json','utf8'));
-// Export display content only; exclude internal updater details.
-const pick = (value, keys) => Object.fromEntries(
-  keys
-    .filter(key => value?.[key] !== undefined)
-    .map(key => [key, structuredClone(value[key])])
-);
-
-const data = {
-  projects: pick(state.projects, [
-    'items', 'lastSuccess', 'lastAttempt',
-    'status', 'retrievalMode', 'source'
-  ]),
-  latestManuscript: pick(state.latestManuscript, [
-    'item', 'lastSuccess', 'lastAttempt', 'status'
-  ]),
-  featuredProjects: pick(state.featuredProjects, [
-    'items', 'archive', 'lastSuccess', 'lastAttempt', 'status'
-  ])
+// Export display content only. Keep updater errors, candidates and credentials private.
+const pick=(value,keys)=>Object.fromEntries(keys.filter(key=>value?.[key]!==undefined).map(key=>[key,structuredClone(value[key])]));
+const data={
+ projects:pick(state.projects,['items','lastSuccess','lastAttempt','status','retrievalMode','source']),
+ latestManuscript:pick(state.latestManuscript,['item','lastSuccess','lastAttempt','status']),
+ featuredProjects:pick(state.featuredProjects,['items','archive','lastSuccess','lastAttempt','status'])
 };
 const figure=data.latestManuscript?.item?.figure;
 if(figure){const source=path.resolve('data/objects',figure.key);if(!source.startsWith(path.resolve('data/objects')+path.sep))throw Error('Invalid figure key');if(fs.existsSync(source)){const ext=({'image/png':'png','image/jpeg':'jpg','image/webp':'webp'})[figure.mime];if(!ext)throw Error('Unsupported figure MIME');figure.staticUrl='data/manuscript-figure.'+ext;fs.copyFileSync(source,'site/'+figure.staticUrl);}else{data.latestManuscript.item.figure=null;console.warn('Figure object missing; publishing text-only feature.');}}

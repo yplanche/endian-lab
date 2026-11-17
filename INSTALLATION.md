@@ -43,12 +43,15 @@ Authenticate using GitHub Desktop, GitHub CLI, or GitHub's supported token-based
 
 ### Option C — upload through GitHub's website
 
+On an empty repository, use the **uploading an existing file** link; afterward use **Code → Add file → Upload files**. Upload extracted files, not the ZIP. Do not upload generated `site/` or `dist/` folders. To replace one file, navigate into its existing folder first, then upload the file and commit. Alternatively open the existing file, click the pencil icon, edit and **Commit changes** directly to `main`.
+
+
 Use **Add file → Upload files**, drag the extracted contents into the repository and commit. Ensure `.github/workflows/pages.yml` is present afterward; Finder/browser uploads may omit hidden directories. If missing, use **Add file → Create new file**, name it `.github/workflows/pages.yml`, and paste the supplied workflow exactly. The workflow must be at that path, not inside an extra wrapper directory.
 
 ## 3. Enable GitHub Actions and Pages
 
 1. Repository → **Settings → Actions → General**: permit GitHub Actions. If restricted to selected actions, allow the official `actions/checkout`, `setup-node`, `configure-pages`, `upload-pages-artifact` and `deploy-pages` actions.
-2. Under **Workflow permissions**, allow **Read and write permissions**, where your organisation permits it. The updater commits only public `data/` changes. Organisation policy or branch protection may require an administrator to permit these updates or provide an approved alternative workflow.
+2. The supplied workflow explicitly requests the permissions it needs: `contents: write` for saving data and `pages: write` / `id-token: write` for deployment. You normally do **not** need to change the repository-wide default under **Workflow permissions**; a read-only default is compatible with this workflow. Organisation policy or branch protection can still block bot commits and may require administrator help. Do not enable pull-request approval permissions for this installation.
 3. Repository → **Settings → Pages** → **Build and deployment → Source**: select **GitHub Actions**. Do not choose “Deploy from a branch” for this package.
 4. If an initial run failed before Pages was enabled, open **Actions → Publish and refresh ENDIAN website**, select the failed run and **Re-run all jobs**. A push-triggered build does not call the content-update service, so you can publish the initial site before configuring the API key.
 5. A successful deployment appears under the **github-pages** environment. Open its URL, normally `https://YOUR-USERNAME.github.io/endian-lab/`. Publishing may take several minutes.
@@ -61,9 +64,9 @@ The supplied workflow refreshes content at **07:17 UTC daily** (07:17 UK winter 
 
 1. Repository → **Settings → Secrets and variables → Actions → Secrets → New repository secret**.
 2. Name it exactly **OPENAI_API_KEY**. Paste your OpenAI API key as its value. Do not put quotes around the value or add it to the source files.
-3. Under **Variables → New repository variable**, create **OPENAI_MODEL**. Its value must be the exact ID of a model available to your API account that supports the Responses API and JSON mode. Choose a current suitable model from your API account's model documentation. No model ID is hard-coded in this package.
+3. Under **Variables → New repository variable**, create **OPENAI_MODEL**. Its value must be the exact ID of a model available to your API account that supports the Responses API and JSON mode. Choose a current suitable model from your API account's model documentation. No model ID is hard-coded in this package. A current example is `gpt-5.4-mini`; confirm availability in your API account before using it. Create the key at https://platform.openai.com/api-keys and configure API billing separately from ChatGPT. Secrets and variables are different tabs: the key is a **secret**, the model ID is a **variable**. Never share the key in chat, screenshots or source code.
 4. Configure an API usage budget/alerts in your API account. Latest manuscript summarisation runs for a new latest DOI. Featured-project analysis separately processes newly listed ORCID journal articles (up to ten per run), even if Latest manuscript is unchanged. PhD extraction runs when its source excerpt changes. Costs depend on model and usage.
-5. Repository → **Actions → Publish and refresh ENDIAN website → Run workflow → main → Run workflow**.
+5. Click the repository’s top **Actions** tab (not Settings → Actions). In the left sidebar choose **Publish and refresh ENDIAN website**. Above the run list, on the right, click **Run workflow**, select **main**, then click the green **Run workflow** button. Refresh the list and open the newly created run. If the button is missing, check that `.github/workflows/pages.yml` exists on `main`, contains `workflow_dispatch:`, and you have write access. If GitHub shows a workflow-enablement banner, enable it first.
 6. Open the run and read its **Summary**, especially **ENDIAN content checks**. Check all three statuses: `latestManuscript`, `featuredProjects` and `projects`. A green deployment means the website deployed; source-status warnings may still indicate that an update could not be completed.
 7. Open the published website and check the freshness dates. The workflow saves results to `data/content.json` and deploys the built output in that same run. It does not depend on a bot commit triggering another Pages workflow.
 
@@ -99,9 +102,14 @@ Repository → **Settings → Pages → Custom domain**. Enter either:
 - `endian.earth` for the root domain as the main address; or
 - `www.endian.earth` for `www` as the main address.
 
+If an older `yplanche.github.io` repository already has `endian.earth` as its custom domain, remove the domain from that old repository’s **Settings → Pages** first, then assign it to `endian-lab`. Do not delete either repository. Project sites can inherit the user-site domain and appear at `endian.earth/endian-lab/`; explicitly assigning the domain to `endian-lab` puts the lab at the root. Check old source/CNAME configuration if an old branch-based deployment restores its domain.
+
 Click **Save** before pointing DNS to GitHub. This workflow uses GitHub Actions, so a CNAME file is not required and is not used to configure the custom domain. The repository's Pages setting is authoritative.
 
 ### C. Point DNS to GitHub Pages
+
+For this installation the intended final address is **https://endian.earth/**, without `/endian-lab/`. In Squarespace, select `endian.earth` → **DNS settings → Custom records → Add record**. Add each row separately; use a TTL of one hour and leave priority blank/not applicable. For the `www` row below, Yves’s actual target is **yplanche.github.io**.
+
 
 In the active DNS provider's custom records, set:
 
@@ -123,6 +131,14 @@ These are GitHub's documented Pages addresses checked on 17 November 2026. Reche
 
 Squarespace guidance: https://support.squarespace.com/hc/en-us/articles/215744668-Pointing-a-Squarespace-domain .
 
+### Squarespace records and warnings to keep separate
+
+- Disable any **domain forwarding / URL redirect** to the Imperial profile. Forwarding is separate from the DNS table; look for domain forwarding in the domain’s website settings.
+- Keep `_domainconnect → _domainconnect.domains.squarespace.com`. It uses a separate hostname and does not interfere with GitHub.
+- Keep the existing random-name CNAME pointing to `…googlehosted.com`. It appears to verify Google domain ownership; it does not route the root or `www` website. Its original purpose cannot be established from the record alone.
+- Keep `www → yplanche.github.io`. Multiple CNAME records on different names do not conflict.
+- Squarespace’s **Website → Update DNS records** alert may offer the **Squarespace Defaults** preset. **Do not apply that preset for this GitHub-hosted website**: it is intended to connect Squarespace website hosting and can conflict with GitHub’s records. Registration/DNS can remain at Squarespace without a Squarespace website subscription.
+
 ### D. Enable HTTPS and test
 
 1. Wait for DNS checks to pass in GitHub's Pages settings. DNS and certificate provisioning may take up to 24 hours.
@@ -140,6 +156,29 @@ Squarespace guidance: https://support.squarespace.com/hc/en-us/articles/21574466
 - Do not edit `site/` as the primary source; it is regenerated each build. It is supplied prebuilt for inspection.
 
 ## 7. Routine checks and troubleshooting
+
+### Diagnose the actual failed command
+
+Open **Actions → the failed run → build**, then expand the step with the red cross. “Process completed with exit code 1” alone is not a diagnosis. For test failures, search the log for **`not ok`** and read the assertion below it, including `expected`, `actual` and the file/line number. Do not share secrets in logs.
+
+The tests deliberately simulate HTTP 503 responses and use fictional DOIs such as `10.1234/new-study`. Messages inside passing test output are not live ORCID failures or published papers. Read the later **Check ORCID and Imperial; refresh content** step and the content-check summary for real update results.
+
+### Saved-error export failure fixed in this release
+
+Older exports copied internal error messages into `site/data/content.json`. A missing API setting could save “Set OPENAI_API_KEY and OPENAI_MODEL…”, causing test 11 to reject the setting name as if it were leaked data. This was a package defect; that assertion alone did **not** establish that an actual API key leaked.
+
+`scripts/build-pages.mjs` now exports only display fields. Internal errors, manuscript candidates, featured candidates/failure histories and processed DOI lists stay out of the built public JSON; the original data file retains them for retries and maintenance. Tests remain enabled and a regression test checks saved errors explicitly. If this exact failure recurs on an old installation, replace `scripts/build-pages.mjs` with this release’s file and commit. Adding the API settings alone cannot clear a build that fails before its updater runs. Use GitHub’s pencil editor if a standalone `.mjs` download fails; the complete tested correction is in `EXPORT-FIX.md`.
+
+### Domain routing and propagation
+
+- **NotServedByPagesError / alternate name improperly configured:** confirm the four GitHub A records and `www` CNAME, remove only conflicting website records, and disable old forwarding. Keep `endian.earth` saved on the lab repository.
+- **DNS Check in Progress:** allow up to 24 hours after correct DNS changes; avoid repeatedly changing records. Recheck in GitHub and enable HTTPS when available.
+- **Still sent to Imperial:** check old forwarding and the older user-site domain first. Test in an incognito window, and on a phone using mobile data with Wi-Fi off. Previously cached redirects or DNS can differ between networks. Clear site-specific browser data if a private window works.
+- **Default GitHub URL redirects:** this is expected after assigning a custom domain. The intended destination is `https://endian.earth/`.
+- **Build vs domain:** a failing test and a DNS check are separate issues. Keep valid DNS unchanged while fixing code. A previous successful deployment can remain online while a newer run fails.
+- **Node.js 20 deprecation warning for `configure-pages@v5`:** distinguish this action-runtime warning from an actual failed step. The website’s build uses Node.js 22. Review official action updates when maintaining the workflow; do not replace versions blindly.
+- **Ubuntu migration notice:** informational by itself; it does not explain exit code 1.
+
 
 - **No Actions workflow:** `.github/workflows/pages.yml` is missing, is inside an extra directory, or is not on `main`.
 - **Pages setup error:** select **GitHub Actions** as the Pages source, then re-run.

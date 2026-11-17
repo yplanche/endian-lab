@@ -1,6 +1,6 @@
 # ENDIAN-LAB — GitHub Pages website
 
-**Start with [INSTALLATION.md](INSTALLATION.md).** Package and instructions reviewed on **17 November 2026**, including the latest fieldwork collage and consultancy section. The ZIP retains its original `2026-11-16` filename for continuity; this is the updated release.
+**Start with [INSTALLATION.md](INSTALLATION.md).** Package and instructions reviewed on **17 November 2026**, including the export-failure fix, precise API/Actions setup, and Squarespace/GitHub domain troubleshooting. The ZIP retains its original `2026-11-16` filename for continuity; this is the updated release.
 
 This complete package includes:
 
@@ -49,3 +49,7 @@ The original private hosted website has a separate ChatGPT daily task. It does n
 ## Publishing and privacy
 
 This package has not been installed in your GitHub account and does not change your DNS. GitHub Pages visitors do not need an OpenAI account. The Flightdesk button opens the separately hosted app; that app's source and access settings are not included here. A public repository exposes source and content history. Never add applicant documents, private correspondence or secrets. Paper-figure reuse requires its own verified licence; inclusion of the lab's media does not grant a blanket licence for third-party material.
+
+## Existing installation: start here
+
+Preserve your current `data/` and GitHub settings. Follow INSTALLATION.md section 8; the immediate build fix is `scripts/build-pages.mjs` (browser-edit fallback in EXPORT-FIX.md). Do not upload the ZIP itself or generated `site/` / `dist/` folders. Do not apply Squarespace Defaults: retain the GitHub DNS records.
