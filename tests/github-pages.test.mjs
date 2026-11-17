@@ -16,6 +16,7 @@ test('saved updater errors and private queues cannot enter the static export',as
   state.latestManuscript.item.figure=null;
   state.featuredProjects.candidates=[{privateMarker:'private-featured-candidate'}];
   state.featuredProjects.failures=[{error:'OPENAI_API_KEY missing'}];
+  fs.copyFileSync('data/wordcloud.json',path.join(dir,'data/wordcloud.json'));
   const source=JSON.stringify(state);fs.writeFileSync(path.join(dir,'data/content.json'),source);
   execFileSync(process.execPath,[path.resolve('scripts/build-pages.mjs')],{cwd:dir});
   const raw=fs.readFileSync(path.join(dir,'site/data/content.json'),'utf8'),out=JSON.parse(raw);

@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": {"node": ">=22"},
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node scripts/build-worker.mjs && node scripts/build-pages.mjs",
-    "update": "node scripts/build-worker.mjs && node scripts/update-content.mjs && node scripts/build-pages.mjs",
+    "update": "node scripts/build-worker.mjs && node scripts/update-content.mjs && node scripts/update-wordcloud.mjs && node scripts/build-pages.mjs",
     "test": "node --test tests/*.test.mjs",
-    "preview": "node scripts/preview.mjs"
+    "preview": "node scripts/preview.mjs",
+    "wordcloud": "node scripts/update-wordcloud.mjs"
   }
 }

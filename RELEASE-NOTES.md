@@ -13,3 +13,11 @@ The original dated ZIP filename is retained; this revision supersedes the earlie
 ## Validation
 
 Build and all 25 tests passed, including the saved-error regression. A fresh extraction of the delivered archive was also built and tested. No real API billing call or live GitHub/DNS change was performed.
+
+## Research word cloud
+
+Added automatic title-based ORCID word cloud to Research, deterministic SVG rendering/download, count/date and accessible term list. New standalone `npm run wordcloud` command; existing daily/manual updater now includes it without AI usage. Existing content JSON is preserved; upgrades add only the new data/wordcloud.json alongside source updates. Added counting, version-deduplication, notice/retraction exclusion and safe-SVG tests. Total GitHub tests: 28.
+
+## Word-cloud logo overlay
+
+Research word cloud now overlays the supplied group logo at 60% opacity, matching the image-sequence logo. SVG word background is transparent. Removed the requested caption sentence; automatic counting and exclusions are unchanged. Build and all 28 tests pass.
