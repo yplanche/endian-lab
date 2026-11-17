@@ -1,0 +1,909 @@
+{
+  "paperCount": 28,
+  "excludedCount": 7,
+  "papers": [
+    {
+      "title": "A Database for the Stocks and Flows of Sand and Gravel",
+      "doi": "10.3390/resources11080072",
+      "type": "journal-article"
+    },
+    {
+      "title": "An assessment of regression methods used to measure changes in the oceanic distribution of anthropogenic carbon.",
+      "doi": "10.5194/bg-10-4801-2013",
+      "type": "journal-article"
+    },
+    {
+      "title": "An Improved Gridded Bathymetric Data Set and Tidal Model for the Maldives Archipelago",
+      "doi": "10.1029/2020ea001207",
+      "type": "journal-article"
+    },
+    {
+      "title": "Bio+Mine Project: Empowering the Community to Develop a Site-Specific System for the Rehabilitation of a Legacy Mine",
+      "doi": "10.1177/16094069231176340",
+      "type": "journal-article"
+    },
+    {
+      "title": "Development of a Novel, Continuous-Time Dynamical Modelling Paradigm That Integrates the Cycles of Natural Resources with Economics",
+      "doi": "10.22541/essoar.176677326.68844120/v3",
+      "type": "preprint"
+    },
+    {
+      "title": "Disentangling drivers of coastal change from satellite imagery to reveal atoll-scale sub-annual responses to the Indian Monsoon in the Maldives",
+      "doi": "10.1017/eds.2026.10062",
+      "type": "journal-article"
+    },
+    {
+      "title": "Emergence of deep convection in the Arctic Ocean under a warming climate",
+      "doi": "10.1007/s00382-017-3849-9",
+      "type": "journal-article"
+    },
+    {
+      "title": "Hydrographic biases in global coupled climate models and their relation to the meridional overturning circulation",
+      "doi": "10.1007/s00382-014-2263-9",
+      "type": "journal-article"
+    },
+    {
+      "title": "Influence of Model Resolution on the Representation and Contribution of Antarctic Intermediate Water to Meridional Salt Transport in the Atlantic",
+      "doi": "10.1029/2025jc023750",
+      "type": "journal-article"
+    },
+    {
+      "title": "Influence of the Southern Hemisphere Supergyre on Antarctic Intermediate Water Properties in CMIP6 Models",
+      "doi": "10.1029/2024jc021140",
+      "type": "journal-article"
+    },
+    {
+      "title": "Limestone-Based Hybrid Passive Treatment for Copper-Rich Acid Mine Drainage: From Laboratory to Field",
+      "doi": "10.3390/min15101043",
+      "type": "journal-article"
+    },
+    {
+      "title": "Ocean change around Greenland under a warming climate",
+      "doi": "10.1007/s00382-014-2373-4",
+      "type": "journal-article"
+    },
+    {
+      "title": "On the relationships between features of the depth-latitude meridional overturning streamfunctions across global coupled climate models",
+      "doi": "10.1007/s00382-013-1984-5",
+      "type": "journal-article"
+    },
+    {
+      "title": "Optimising nonlinear calibration of glass pH electrodes over the pH range −4.5 to 15.5 using improved statistical treatment of acid and alkaline errors",
+      "doi": "10.1016/j.talanta.2026.130486",
+      "type": "journal-article"
+    },
+    {
+      "title": "Origin and fate of the secondary nitrite maximum in the Arabian Sea",
+      "doi": "10.5194/bg-8-1565-2011",
+      "type": "journal-article"
+    },
+    {
+      "title": "Particle–Seawater Interaction of Neodymium in the North Atlantic",
+      "doi": "10.1021/acsearthspacechem.0c00034",
+      "type": "journal-article"
+    },
+    {
+      "title": "Properties, sensitivity, and stability of the Southern Hemisphere salinity minimum layer in the UKESM1 model",
+      "doi": "10.1007/s00382-022-06304-2",
+      "type": "journal-article"
+    },
+    {
+      "title": "Rare earth element distribution in Caribbean seawater: Continental inputs versus lateral transport of distinct REE compositions in subsurface water masses",
+      "doi": "10.1016/j.marchem.2015.03.013",
+      "type": "journal-article"
+    },
+    {
+      "title": "Rare earth elements (REEs) in the tropical South Atlantic and quantitative deconvolution of their non-conservative behavior",
+      "doi": "10.1016/j.gca.2016.01.018",
+      "type": "journal-article"
+    },
+    {
+      "title": "Rare Earth Elements in early-diagenetic foraminifer ‘coatings’: Pore-water controls and potential palaeoceanographic applications",
+      "doi": "10.1016/j.gca.2018.10.027",
+      "type": "journal-article"
+    },
+    {
+      "title": "Reemergence of Anthropogenic Carbon Into the Ocean's Mixed Layer Strongly Amplifies Transient Climate Sensitivity",
+      "doi": "10.1029/2020gl089275",
+      "type": "journal-article"
+    },
+    {
+      "title": "Simulating resource movements and markets: A continuous dynamical system with delays to model anthropogenic metal cycles",
+      "doi": "10.1016/j.resourpol.2025.105548",
+      "type": "journal-article"
+    },
+    {
+      "title": "Spectrally-Augmented LiDAR Point Cloud for Vegetation Classification",
+      "doi": "10.2139/ssrn.6333611",
+      "type": "preprint"
+    },
+    {
+      "title": "Strong sensitivity of Southern Ocean carbon uptake and nutrient cycling to wind stirring",
+      "doi": "10.5194/bg-11-4077-2014",
+      "type": "journal-article"
+    },
+    {
+      "title": "The formation of the ocean's anthropogenic carbon reservoir",
+      "doi": "10.1038/srep35473",
+      "type": "journal-article"
+    },
+    {
+      "title": "The large-scale evolution of neodymium isotopic composition in the global modern and Holocene ocean revealed from seawater and archive data",
+      "doi": "10.1016/j.chemgeo.2017.03.018",
+      "type": "journal-article"
+    },
+    {
+      "title": "The potential of sedimentary foraminiferal rare earth element patterns to trace water masses in the past",
+      "doi": "10.1002/2016gc006782",
+      "type": "journal-article"
+    },
+    {
+      "title": "Towards measuring particle-associated fecal indicator bacteria in tropical streams",
+      "doi": "10.1016/j.watres.2006.12.021",
+      "type": "journal-article"
+    }
+  ],
+  "terms": [
+    {
+      "term": "ocean",
+      "count": 7
+    },
+    {
+      "term": "climate",
+      "count": 5
+    },
+    {
+      "term": "water",
+      "count": 5
+    },
+    {
+      "term": "anthropogenic",
+      "count": 4
+    },
+    {
+      "term": "carbon",
+      "count": 4
+    },
+    {
+      "term": "earth",
+      "count": 4
+    },
+    {
+      "term": "element",
+      "count": 4
+    },
+    {
+      "term": "rare",
+      "count": 4
+    },
+    {
+      "term": "atlantic",
+      "count": 3
+    },
+    {
+      "term": "global",
+      "count": 3
+    },
+    {
+      "term": "meridional",
+      "count": 3
+    },
+    {
+      "term": "seawater",
+      "count": 3
+    },
+    {
+      "term": "sensitivity",
+      "count": 3
+    },
+    {
+      "term": "southern",
+      "count": 3
+    },
+    {
+      "term": "acid",
+      "count": 2
+    },
+    {
+      "term": "antarctic",
+      "count": 2
+    },
+    {
+      "term": "continuous",
+      "count": 2
+    },
+    {
+      "term": "coupled",
+      "count": 2
+    },
+    {
+      "term": "cycle",
+      "count": 2
+    },
+    {
+      "term": "dynamical",
+      "count": 2
+    },
+    {
+      "term": "hemisphere",
+      "count": 2
+    },
+    {
+      "term": "intermediate",
+      "count": 2
+    },
+    {
+      "term": "layer",
+      "count": 2
+    },
+    {
+      "term": "maldives",
+      "count": 2
+    },
+    {
+      "term": "mass",
+      "count": 2
+    },
+    {
+      "term": "mine",
+      "count": 2
+    },
+    {
+      "term": "neodymium",
+      "count": 2
+    },
+    {
+      "term": "overturning",
+      "count": 2
+    },
+    {
+      "term": "particle",
+      "count": 2
+    },
+    {
+      "term": "REE",
+      "count": 2
+    },
+    {
+      "term": "resource",
+      "count": 2
+    },
+    {
+      "term": "scale",
+      "count": 2
+    },
+    {
+      "term": "system",
+      "count": 2
+    },
+    {
+      "term": "their",
+      "count": 2
+    },
+    {
+      "term": "transport",
+      "count": 2
+    },
+    {
+      "term": "treatment",
+      "count": 2
+    },
+    {
+      "term": "tropical",
+      "count": 2
+    },
+    {
+      "term": "warming",
+      "count": 2
+    },
+    {
+      "term": "alkaline",
+      "count": 1
+    },
+    {
+      "term": "amplifies",
+      "count": 1
+    },
+    {
+      "term": "annual",
+      "count": 1
+    },
+    {
+      "term": "arabian",
+      "count": 1
+    },
+    {
+      "term": "archipelago",
+      "count": 1
+    },
+    {
+      "term": "archive",
+      "count": 1
+    },
+    {
+      "term": "arctic",
+      "count": 1
+    },
+    {
+      "term": "atoll",
+      "count": 1
+    },
+    {
+      "term": "augmented",
+      "count": 1
+    },
+    {
+      "term": "bacteria",
+      "count": 1
+    },
+    {
+      "term": "bathymetric",
+      "count": 1
+    },
+    {
+      "term": "behavior",
+      "count": 1
+    },
+    {
+      "term": "biases",
+      "count": 1
+    },
+    {
+      "term": "bio",
+      "count": 1
+    },
+    {
+      "term": "calibration",
+      "count": 1
+    },
+    {
+      "term": "caribbean",
+      "count": 1
+    },
+    {
+      "term": "circulation",
+      "count": 1
+    },
+    {
+      "term": "classification",
+      "count": 1
+    },
+    {
+      "term": "cloud",
+      "count": 1
+    },
+    {
+      "term": "CMIP6",
+      "count": 1
+    },
+    {
+      "term": "coastal",
+      "count": 1
+    },
+    {
+      "term": "coating",
+      "count": 1
+    },
+    {
+      "term": "community",
+      "count": 1
+    },
+    {
+      "term": "composition",
+      "count": 1
+    },
+    {
+      "term": "compositions",
+      "count": 1
+    },
+    {
+      "term": "conservative",
+      "count": 1
+    },
+    {
+      "term": "continental",
+      "count": 1
+    },
+    {
+      "term": "controls",
+      "count": 1
+    },
+    {
+      "term": "convection",
+      "count": 1
+    },
+    {
+      "term": "copper",
+      "count": 1
+    },
+    {
+      "term": "cycling",
+      "count": 1
+    },
+    {
+      "term": "database",
+      "count": 1
+    },
+    {
+      "term": "deconvolution",
+      "count": 1
+    },
+    {
+      "term": "deep",
+      "count": 1
+    },
+    {
+      "term": "delays",
+      "count": 1
+    },
+    {
+      "term": "depth",
+      "count": 1
+    },
+    {
+      "term": "develop",
+      "count": 1
+    },
+    {
+      "term": "diagenetic",
+      "count": 1
+    },
+    {
+      "term": "disentangling",
+      "count": 1
+    },
+    {
+      "term": "distinct",
+      "count": 1
+    },
+    {
+      "term": "drainage",
+      "count": 1
+    },
+    {
+      "term": "drivers",
+      "count": 1
+    },
+    {
+      "term": "early",
+      "count": 1
+    },
+    {
+      "term": "economics",
+      "count": 1
+    },
+    {
+      "term": "electrode",
+      "count": 1
+    },
+    {
+      "term": "emergence",
+      "count": 1
+    },
+    {
+      "term": "empowering",
+      "count": 1
+    },
+    {
+      "term": "error",
+      "count": 1
+    },
+    {
+      "term": "evolution",
+      "count": 1
+    },
+    {
+      "term": "fate",
+      "count": 1
+    },
+    {
+      "term": "features",
+      "count": 1
+    },
+    {
+      "term": "fecal",
+      "count": 1
+    },
+    {
+      "term": "field",
+      "count": 1
+    },
+    {
+      "term": "flow",
+      "count": 1
+    },
+    {
+      "term": "foraminifer",
+      "count": 1
+    },
+    {
+      "term": "foraminiferal",
+      "count": 1
+    },
+    {
+      "term": "formation",
+      "count": 1
+    },
+    {
+      "term": "glass",
+      "count": 1
+    },
+    {
+      "term": "gravel",
+      "count": 1
+    },
+    {
+      "term": "greenland",
+      "count": 1
+    },
+    {
+      "term": "gridded",
+      "count": 1
+    },
+    {
+      "term": "holocene",
+      "count": 1
+    },
+    {
+      "term": "hybrid",
+      "count": 1
+    },
+    {
+      "term": "hydrographic",
+      "count": 1
+    },
+    {
+      "term": "imagery",
+      "count": 1
+    },
+    {
+      "term": "indian",
+      "count": 1
+    },
+    {
+      "term": "indicator",
+      "count": 1
+    },
+    {
+      "term": "inputs",
+      "count": 1
+    },
+    {
+      "term": "integrates",
+      "count": 1
+    },
+    {
+      "term": "interaction",
+      "count": 1
+    },
+    {
+      "term": "isotopic",
+      "count": 1
+    },
+    {
+      "term": "laboratory",
+      "count": 1
+    },
+    {
+      "term": "large",
+      "count": 1
+    },
+    {
+      "term": "lateral",
+      "count": 1
+    },
+    {
+      "term": "latitude",
+      "count": 1
+    },
+    {
+      "term": "legacy",
+      "count": 1
+    },
+    {
+      "term": "LiDAR",
+      "count": 1
+    },
+    {
+      "term": "limestone",
+      "count": 1
+    },
+    {
+      "term": "markets",
+      "count": 1
+    },
+    {
+      "term": "maximum",
+      "count": 1
+    },
+    {
+      "term": "measure",
+      "count": 1
+    },
+    {
+      "term": "measuring",
+      "count": 1
+    },
+    {
+      "term": "metal",
+      "count": 1
+    },
+    {
+      "term": "minimum",
+      "count": 1
+    },
+    {
+      "term": "mixed",
+      "count": 1
+    },
+    {
+      "term": "modern",
+      "count": 1
+    },
+    {
+      "term": "monsoon",
+      "count": 1
+    },
+    {
+      "term": "movements",
+      "count": 1
+    },
+    {
+      "term": "natural",
+      "count": 1
+    },
+    {
+      "term": "nitrite",
+      "count": 1
+    },
+    {
+      "term": "non",
+      "count": 1
+    },
+    {
+      "term": "nonlinear",
+      "count": 1
+    },
+    {
+      "term": "north",
+      "count": 1
+    },
+    {
+      "term": "nutrient",
+      "count": 1
+    },
+    {
+      "term": "optimising",
+      "count": 1
+    },
+    {
+      "term": "origin",
+      "count": 1
+    },
+    {
+      "term": "palaeoceanographic",
+      "count": 1
+    },
+    {
+      "term": "paradigm",
+      "count": 1
+    },
+    {
+      "term": "passive",
+      "count": 1
+    },
+    {
+      "term": "past",
+      "count": 1
+    },
+    {
+      "term": "pattern",
+      "count": 1
+    },
+    {
+      "term": "pH",
+      "count": 1
+    },
+    {
+      "term": "point",
+      "count": 1
+    },
+    {
+      "term": "pore",
+      "count": 1
+    },
+    {
+      "term": "project",
+      "count": 1
+    },
+    {
+      "term": "quantitative",
+      "count": 1
+    },
+    {
+      "term": "range",
+      "count": 1
+    },
+    {
+      "term": "reemergence",
+      "count": 1
+    },
+    {
+      "term": "regression",
+      "count": 1
+    },
+    {
+      "term": "rehabilitation",
+      "count": 1
+    },
+    {
+      "term": "relation",
+      "count": 1
+    },
+    {
+      "term": "relationships",
+      "count": 1
+    },
+    {
+      "term": "reservoir",
+      "count": 1
+    },
+    {
+      "term": "resolution",
+      "count": 1
+    },
+    {
+      "term": "response",
+      "count": 1
+    },
+    {
+      "term": "reveal",
+      "count": 1
+    },
+    {
+      "term": "rich",
+      "count": 1
+    },
+    {
+      "term": "salinity",
+      "count": 1
+    },
+    {
+      "term": "salt",
+      "count": 1
+    },
+    {
+      "term": "sand",
+      "count": 1
+    },
+    {
+      "term": "satellite",
+      "count": 1
+    },
+    {
+      "term": "sea",
+      "count": 1
+    },
+    {
+      "term": "secondary",
+      "count": 1
+    },
+    {
+      "term": "sedimentary",
+      "count": 1
+    },
+    {
+      "term": "simulating",
+      "count": 1
+    },
+    {
+      "term": "site",
+      "count": 1
+    },
+    {
+      "term": "south",
+      "count": 1
+    },
+    {
+      "term": "specific",
+      "count": 1
+    },
+    {
+      "term": "spectrally",
+      "count": 1
+    },
+    {
+      "term": "stability",
+      "count": 1
+    },
+    {
+      "term": "statistical",
+      "count": 1
+    },
+    {
+      "term": "stirring",
+      "count": 1
+    },
+    {
+      "term": "stock",
+      "count": 1
+    },
+    {
+      "term": "stream",
+      "count": 1
+    },
+    {
+      "term": "streamfunctions",
+      "count": 1
+    },
+    {
+      "term": "strong",
+      "count": 1
+    },
+    {
+      "term": "strongly",
+      "count": 1
+    },
+    {
+      "term": "sub",
+      "count": 1
+    },
+    {
+      "term": "subsurface",
+      "count": 1
+    },
+    {
+      "term": "supergyre",
+      "count": 1
+    },
+    {
+      "term": "that",
+      "count": 1
+    },
+    {
+      "term": "tidal",
+      "count": 1
+    },
+    {
+      "term": "time",
+      "count": 1
+    },
+    {
+      "term": "trace",
+      "count": 1
+    },
+    {
+      "term": "transient",
+      "count": 1
+    },
+    {
+      "term": "UKESM1",
+      "count": 1
+    },
+    {
+      "term": "uptake",
+      "count": 1
+    },
+    {
+      "term": "vegetation",
+      "count": 1
+    },
+    {
+      "term": "versus",
+      "count": 1
+    },
+    {
+      "term": "wind",
+      "count": 1
+    }
+  ],
+  "method": "Distinct-paper frequency in titles; duplicates, corrections and retracted material excluded. Generic words removed; selected word variants combined.",
+  "source": "https://orcid.org/0000-0002-3624-0757",
+  "version": 1,
+  "digest": "bee7f3fb7a7fe6cd34364d8a8dbe75ca248c57846908409b978cdffc36b8da06",
+  "status": "ok",
+  "lastAttempt": "2026-11-17T16:56:57.722Z",
+  "lastSuccess": "2026-11-17T16:56:57.722Z",
+  "error": null,
+  "generatedAt": "2026-11-17T16:56:57.722Z"
+}
